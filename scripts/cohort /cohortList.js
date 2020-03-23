@@ -6,15 +6,11 @@ import { Cohort } from "./cohort.js"
 
 const contentTarget = document.querySelector(".cohortcontainer")
 const eventHub = document.querySelector(".container")
-const show = document.querySelector(".show-cohorts")
-
 // add an event listener on the eventHub that listens for the cohortStateChanged custom event
 eventHub.addEventListener("apiStateChanged", () =>{
     render()
 })
-show.addEventListener("click", e=> {
-    render()
-})
+
 
 // the function that renders the cohort list (and does all the things for cohort list)
 const render = () => {
@@ -25,4 +21,7 @@ const render = () => {
             return Cohort(cohort)
         }).join("")
     })
+}
+export const CohortList = () => {
+    render()
 }

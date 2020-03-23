@@ -43,6 +43,42 @@
     {
       "name": "cohort 23",
       "id": 11
+    },
+    {
+      "name": "cohort 40",
+      "id": 12
+    }
+  ],
+  "students":[
+    {
+      "id": 1,
+      "name": "abebe asha",
+      "cohortId": 10
+    },
+    {
+      "id": 2,
+      "name": "samson lema",
+      "cohortId": 9
+    },
+    {
+      "id": 3,
+      "name": "nati ayalew",
+      "cohortId": 8
+    },
+    {
+      "id": 4,
+      "name": "deginet demise",
+      "cohortId": 7
+    },
+    {
+      "id": 5,
+      "name": "geresu geta",
+      "cohortId": 6
+    },
+    {
+      "id": 6,
+      "name": "dagimawi tilahun",
+      "cohortId": 5
     }
   ]
 }
